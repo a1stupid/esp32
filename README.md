@@ -10,7 +10,7 @@ brew install cmake ninja dfu-util ccache python3
 
 mkdir ~/github
 cd ~/github
-git clone -b v5.4.1 --recursive https://github.com/espressif/esp-idf.git  //将ESP-IDF 下载至 ~/github/esp-idf 目录
+git clone -b v5.4.1 --recursive https://github.com/espressif/esp-idf.git      //将ESP-IDF 下载至 ~/github/esp-idf 目录
 
 三、设置工具
 
@@ -20,7 +20,7 @@ cd ~/github/esp-idf
 四、设置环境变量
 
 alias get_idf='. $HOME/github/esp-idf/export.sh'
-source ~/.zshrc   //这样在需要用到 ESP-IDF 环境的时候，只需要在终端中执行 get_idf 即可。
+source ~/.zshrc      //这样在需要用到 ESP-IDF 环境的时候，只需要在终端中执行 get_idf 即可。
 
 五、下载和编译小智 AI 固件
 
